@@ -1,0 +1,332 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Azeret Mono", monospace;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+    
+}
+p{
+    font-size: 16px;
+    opacity: 70%;
+    line-height: 25px;
+    color: #0D1321;
+    text-align: center;
+}
+
+.nav-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-inner .nav-logo h1{
+    font-size: 28px;
+    font-weight: 800;
+    color: #0D1321;
+}
+.nav-inner .nav-logo h1 span{
+    color: #ff7f50;
+}
+.nav-resume-btn button{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 17px 24px;
+    border: 1px solid #0D1321 ;
+    border-radius: 8px;
+    color: #0D1321;
+    opacity: 80%;
+}
+
+.header-section{
+    background: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 852px;
+    margin-bottom: 100px;
+}
+.section-area{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 26px;
+    width: 998px;
+    
+
+}
+.header-item img{
+    width: 240px;
+}
+.header-item h1{
+    margin-top: 32px;
+    font-size: 48px;
+    font-weight: 800;
+    color: #0D1321;
+}
+.header-item p{
+    margin-top: 24px;
+}
+.primary-btn {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+.header-item .primary-btn a{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 21px 24px;
+    background-color: #0D1321;
+    border-radius: 8px;
+    margin-bottom: 44px;
+    text-decoration: none;
+   
+    
+}
+.sub a{
+    background: linear-gradient(to left, rgb(255, 0, 247) ,rgb(119, 0, 255));
+    
+  
+}
+
+/*-------------------------------------
+   About Section Css Start 
+-------------------------------------*/
+.about-area{
+    background-color: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+    border-radius: 16px;
+    margin-bottom: 88px;
+}
+.section-title{
+    margin-bottom: 48px;
+    line-height: 25px;
+}
+.section-title h1{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+        
+.about-contain{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.about-dis{
+    margin:  auto;
+}
+.about-dis h2{
+    font-size: 24px;
+    text-align: left;
+    color: rgba(13, 19, 33, 0.7);
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.about-dis p{
+    text-align: left;
+    margin-bottom: 32px;
+
+}
+.about-dis button{
+    border: 1px solid #0D1321;
+    opacity: 70%;
+    padding: 12px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.about-contain{
+    background:linear-gradient(to right,rgb(255, 255, 255),rgba(255, 255, 255, 0)) ;
+    padding: 48px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+
+}
+.contain-sub{
+    background:linear-gradient(to left,rgb(255, 255, 255),rgba(255, 255, 255, 0)) ;  
+}
+.about-contain img{
+    width: 275px;
+    height: 240px;
+}
+
+/*-------------------------------------
+   Inspiration Css Start 
+-------------------------------------*/
+.ins-item{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    padding: 32px;
+    border-radius: 16px;
+    
+}
+.ins-inner{
+    margin-bottom:150px;
+}
+.ins-item iframe{
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px; 
+}
+/*-------------------------------------
+    Target Section Css Start 
+-------------------------------------*/
+.target-inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 110px;
+   
+}
+.target-contain{
+    padding: 40px;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.06);
+}
+.con-1{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.con-2{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.target-contain img{
+    width: 56px;
+    height: 56px;
+}
+.target-contain h1{
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.target-contain p{
+    margin-bottom: 24px;
+    text-align: left;
+        
+}
+.target-contain a{
+    color: #0D1321;
+    background-color: transparent;
+    font-weight: 700;
+   
+}
+/*-------------------------------------
+    Next Target Section Css Start 
+-------------------------------------*/
+.next-sup-item{
+    display: flex;
+    margin: 40px;
+}
+.next-sup-inner img{
+    height:100px ;
+    
+}
+.node-img{
+  width: 110px;
+}
+.next-sup-inner{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin-bottom: 24px;
+
+}
+.sup-dis {
+    text-align: left;
+    margin-left: 24px;
+}
+.sup-dis p{
+    text-align: left;
+    margin: 8px 0 24px 0;
+}
+.sup-dis a{
+    font-weight: 700;
+    font-size: 16px;
+    color: #0D1321;
+}
+/*-------------------------------------
+  Support Section Css Start 
+-------------------------------------*/
+.support-area{
+    background: url(../images/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    background-position:center ;
+    height: 314px;
+    margin-bottom: 80px;
+    padding:64px 48px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.435);
+    background-blend-mode: overlay;
+    margin-top: 44px;
+
+}
+.support-inner h3{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.support-inner p{
+    height: 50px;
+    color: #FFFFFF;
+}
+.support-inner .sent-btn input{
+    padding: 19px 20px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    width: 548px;
+    height: 57px;
+    font-size: 16px;
+}
+.sent-btn{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+.sent-btn button{
+    padding: 17px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #0D1321;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-weight: 600;
+}
+/*-------------------------------------
+   Footer Css Start 
+-------------------------------------*/
+.footer-inner{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 32px 0;
+}
+.footer-inner .footer-icon{
+    text-align: right;
+    
+}
+.footer-icon a{
+
+    margin-left: 24px;
+}
+
+.footer-des h3{
+    font-size: 20px;
+    font-weight: 600px;
+}
+/*-------------------------------------
+    ============= End=============
+-------------------------------------*/
