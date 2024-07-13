@@ -65,16 +65,16 @@ p{
     width: 240px;
 }
 .header-item h1{
-    margin-top: 32px;
+    margin-top: 40px;
     font-size: 48px;
-    font-weight: 800;
+    font-weight: bolder;
     color: #0D1321;
 }
 .header-item p{
-    margin-top: 24px;
+    margin-top: 30px;
 }
 .primary-btn {
-    margin-top: 32px;
+    margin-top: 38px;
     display: flex;
     justify-content: center;
 }
@@ -86,7 +86,7 @@ p{
     padding: 21px 24px;
     background-color: #0D1321;
     border-radius: 8px;
-    margin-bottom: 44px;
+    margin-bottom: 48spx;
     text-decoration: none;
    
     
@@ -97,9 +97,6 @@ p{
   
 }
 
-/*-------------------------------------
-   About Section Css Start 
--------------------------------------*/
 .about-area{
     background-color: rgba(13, 19, 33, 0.02);
     padding: 80px 97px;
@@ -160,9 +157,6 @@ p{
     height: 240px;
 }
 
-/*-------------------------------------
-   Inspiration Css Start 
--------------------------------------*/
 .ins-item{
     border: 1px solid rgba(13, 19, 33, 0.2);
     padding: 32px;
@@ -177,9 +171,7 @@ p{
     height: 550px;
     border-radius: 16px; 
 }
-/*-------------------------------------
-    Target Section Css Start 
--------------------------------------*/
+
 .target-inner{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -218,9 +210,7 @@ p{
     font-weight: 700;
    
 }
-/*-------------------------------------
-    Next Target Section Css Start 
--------------------------------------*/
+
 .next-sup-item{
     display: flex;
     margin: 40px;
@@ -251,11 +241,8 @@ p{
     font-size: 16px;
     color: #0D1321;
 }
-/*-------------------------------------
-  Support Section Css Start 
--------------------------------------*/
 .support-area{
-    background: url(../images/handshake.jpg);
+    background: url(../assets/handshake.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
@@ -306,9 +293,6 @@ p{
     border: none;
     font-weight: 600;
 }
-/*-------------------------------------
-   Footer Css Start 
--------------------------------------*/
 .footer-inner{
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -326,7 +310,5 @@ p{
 .footer-des h3{
     font-size: 20px;
     font-weight: 600px;
+     margin-bottom: 50px;
 }
-/*-------------------------------------
-    ============= End=============
--------------------------------------*/
