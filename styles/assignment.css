@@ -296,7 +296,9 @@ p{
 .footer-inner{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    padding: 32px 0;
+    padding: 20px 0;
+    border-radius: 16px;
+    background-color: rgb(250, 248, 245);
 }
 .footer-inner .footer-icon{
     text-align: right;
@@ -310,5 +312,6 @@ p{
 .footer-des h3{
     font-size: 20px;
     font-weight: 600px;
-     margin-bottom: 50px;
+     margin-bottom: 20px;
+    
 }
